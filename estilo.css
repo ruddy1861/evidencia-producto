@@ -1,6 +1,6 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(220, 244, 248);
+    
 }
 table,tbody{
     border: 1px solid rgb(15, 15, 15);
@@ -61,12 +61,21 @@ h2{
      width: 95%;
  }
 .horario{
-    width: 16%;
+    width: 16%;}
+
+header{
+    background: rgb(143, 144, 73);
 }
-.t1{
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+header nav ul{
+    list-style: none;
 }
-.t2{
-    
+header nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul li a {
+    padding: 10px;
+    display: block;
+    text-decoration: #000;
 }
